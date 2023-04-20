@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson3</title>
+</head>
+<body>
+  <h1>Форма заявки на работу в зоопарке</h1>
+    <form action="#">
+        <p><i>Пожалуйста, заполните форму. Обязательные поля помечены </i><em>*</em></p>
+        <fieldset>
+          <legend>Контактная информация</legend>
+            <label for="имя">Имя <em>*</em></label>
+            <input id="имя"><br>
+            <label for="Телефон">Телефон</label>
+            <input id="Телефон"><br>
+            <label for="email">Email <em>*</em></label>
+            <input id="email"><br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Персональная информация</legend>
+            <label for="возрост">Возраст<em>*</em></label>
+            <input id="возрост"><br>
+            <label for="пол">Пол</label>
+            <select id="пол">
+              <option value="Женщина">Женщина</option>
+              <option value="Мужчина">Мужчина</option>
+            </select><br>
+            <label for="comments">Перечислите личные качества</label>
+            <textarea id="comments"></textarea>
+        </fieldset>
+      <br>
+        <fieldset>
+          <legend>Выберите ваших любимых животных</legend>
+          <table>
+         <td> <label for="зебра"><input id="зебра" type="checkbox"> Зебра</label> </td>
+          <label for="Кошак"><input id="Кошак" type="checkbox"> Кошак</label>
+          <td><label for="Анаконда"><input id="Анаконда" type="checkbox"> Анаконда</label>
+          <label for="Человек"><input id="Человек" type="checkbox"> Человек</label></td>
+          <label for="слон"><input id="слон" type="checkbox"> Слон</label>
+          <td><label for="Антилопа"><input id="Антилопа" type="checkbox"> Антилопа</label></td>
+          <label for="Голубь"><input id="Голубь" type="checkbox"> Голубь</label>
+          <label for="Краб"><input id="Краб" type="checkbox"> Краб</label>
+          </table>
+        </fieldset>
+        <p><input type="submit" value="Отправить информацию"></p>
+      </form>
+</body>
+</html>

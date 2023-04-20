@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #26292e;
+  }
+  .wrp {
+    width: 1280px;
+    /* height: 668px; */
+    padding: 115px 48px 57px 193px;
+    background: #f2f8f6;
+  }
+  .block1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-wrp {
+    position: relative;
+    /* width: 446.67px; */
+    width: 43%;
+    height: 437.32px;
+    margin-right: 73px;
+  }
+  .block2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    margin-top: -48px;
+    margin-left: -33px;
+    background: #fff;
+  }
+  .block3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 20px solid #3d8455;
+  
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+  }
+  .img {
+    position: absolute;
+    left: 50%;
+    top: -97px;
+    transform: translateX(-50%);
+  }
+  .desc {
+    width: 53%;
+  }
+  .title {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+  }
+  .txt1 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .list {
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom: 13px;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 600;
+    margin-bottom: 0%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .Batom {
+    margin-top: 59px;
+    padding: 17px 34px;
+    background: #408858;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    max-width: 160px;
+  }
+  .list-item::before {
+    content: "";
+    width: 12px;
+    height: 14px;
+    background: url("../lessons-6/Group.png");
+    position: absolute;
+    right: 64%;
+    transform: translateY(50%);
+  }
