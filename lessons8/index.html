@@ -9,19 +9,19 @@
   </head>
   <body>
     <main>
-        <form class="form" action="#" >
+        <form class="form"  >
           <div class="left">
-          <h1>Оформить заказ</h1>
+          <h2 class="textarea">Оформить заказ</h2>
           <label class="left-label">ФИО*:<input class="left-input" type="text" name="name" placeholder="Введите ваше ФИО" required></label>
           <label class="left-label" >Телефон:<input class="left-input" type="tel" name="phone" placeholder="Введите ваш номер телефона" required></label>
           <label class="left-label">Email:<input class="left-input" type="email" name="email" placeholder="Введите ваш email" required></label>
           <label class="left-label">Адрес:<input class="left-input" type="text" name="address" placeholder="Введите ваш адрес" required></label>
           <label class="left-label">Примечание к заказу:<textarea name="notes"></textarea></label>
-          <button class="button"> Оформить заказ </button>
+          <button class="button" type="submit"> Оформить заказ </button>
 
         </div>
         <div class="right">
-        <h1>Способ доставки</h1>
+        <h2 class="textarea">Способ доставки</h2>
         <label class="right-label">
           <input type="radio" name="shipment" value="blr">Склад РБ</label>
         <p>Это самый удобный, бесплатный и быстрый способ получения заказа!
@@ -35,6 +35,8 @@
             <label class="right-label">
           <input  type="radio" name="shipment" value="custom">Доставка</label>
         <p>Сроки доставки товара покупателю устанавливаются договором. Если доставка товара произведена в установленные договором сроки, но товар не был передан покупателю по его вине, повторная доставка производится после повторной оплаты покупателем стоимости услуг по доставке товара.</p>
+        <button class="button button2" type="submit"> Оформить заказ </button>
+
       </div>
       </form>
   </body>
